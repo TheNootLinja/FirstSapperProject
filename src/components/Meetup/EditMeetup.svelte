@@ -1,11 +1,11 @@
 <script>
-  import meetups from "./meetups-store";
+  import meetups from "../../meetups-store";
   import { createEventDispatcher } from "svelte";
   import TextInput from "../UI/TextInput.svelte";
   import Button from "../UI/Button.svelte";
   import Modal from "../UI/Modal.svelte";
 
-  import { notEmpty, isValidEmail } from "../../../helpers/validation.js";
+  import { notEmpty, isValidEmail } from "../../helpers/validation";
 
   export let id = null;
 

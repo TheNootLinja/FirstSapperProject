@@ -2,7 +2,7 @@
   import { fade, fly, slide, scale } from "svelte/transition";
   import { flip } from "svelte/animate";
   import { createEventDispatcher } from "svelte";
-  import meetups from "./meetups-store.js";
+  import meetups from "../../meetups-store";
   import Button from "../UI/Button.svelte";
   import Badge from "../UI/Badge.svelte";
   import LoadingSpinner from "../UI/LoadingSpinner.svelte";
